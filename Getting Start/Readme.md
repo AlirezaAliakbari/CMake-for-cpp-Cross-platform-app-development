@@ -1,4 +1,4 @@
-# 1.CMake Definition and Instalation
+# 1. CMake Definition and Installation
 
 ## 1.1. what  CMake is? 
 * CMake is built system **generator**

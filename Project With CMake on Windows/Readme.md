@@ -97,7 +97,7 @@ target_compile_features(HelloAppBinary PRIVATE cxx_std_20)
 
 * in Linux
 > use `git add . ` after making some changes  in the directory that consists of  **.gitignore**
-> use `git commit -m  "Apply changes from Linux"
+> use `git commit -m  "Apply changes from Linux" `
 > use `git push` 
 
 * in Windows 

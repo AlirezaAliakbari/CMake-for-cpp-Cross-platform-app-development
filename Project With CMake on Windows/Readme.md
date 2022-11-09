@@ -26,7 +26,7 @@
 * and then by your `PowerShell` git clone the created repository named CMakeSeries there
 * Open your .gitgnore by `notepad++`
 * edit lines as below:
-```
+```txt
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles

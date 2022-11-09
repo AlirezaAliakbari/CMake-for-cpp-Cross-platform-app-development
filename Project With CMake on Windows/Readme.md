@@ -79,3 +79,33 @@ target_compile_features(HelloAppBinary PRIVATE cxx_std_20)
 * `git add .`
 *  `git commit -m "Part2 code" `
 *   `git push`
+
+## 2.7. Building C++ code with CMake on Linux
+
+> open Linux os 
+>> clone your project in a directory 
+>> make a build directory using `mkdir build`
+>> the cd to build and type `cmake ../source/`
+>> the generation and configuration will be done after some minutes
+
+> for making the binaries :
+>> type `make` in the build directory
+>> you will see **HellowBinarry** after some seconds 
+>> run it by `./HelloBinary/`
+
+## 2.8. move back to Windows 
+
+* in Linux
+> use `git add . ` after making some changes  in the directory that consists of  **.gitignore**
+> use `git commit -m  "Apply changes from Linux"
+> use `git push` 
+
+* in Windows 
+> use `git fetch`  in the directory that consists of  **.gitignore**
+> use `git merge`
+> go to **buikd** directory abd type `msbuild HelloApp`
+> run your code using `./Debug.HelloAppBinary.exe`
+
+
+
+ 

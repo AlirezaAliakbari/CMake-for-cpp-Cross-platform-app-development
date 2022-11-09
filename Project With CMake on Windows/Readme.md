@@ -52,7 +52,7 @@ _deps
 ## 2.4. CMake commands
 *creat a file name `CMakeLists.txt` 
 > open it by vscode and write this commands inside it :
-```
+```cmake
 cmake_minimum_required(VERSION 3.5) 
 project(HelloApp
         VERSION 0.0.1
